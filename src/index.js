@@ -1,7 +1,4 @@
-import './game.css';
-import goblinImg from './img/goblin.png';
 
-// создаём поле
 const root = document.getElementById('game');
 
 const board = document.createElement('div');

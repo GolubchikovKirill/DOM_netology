@@ -1,0 +1,2 @@
+(()=>{const e=document.getElementById("game"),t=document.createElement("div");t.classList.add("board"),e.appendChild(t);const n=[];for(let e=0;e<16;e+=1){const e=document.createElement("div");e.classList.add("cell"),t.appendChild(e),n.push(e)}const l=document.createElement("img");l.src=goblinImg,l.alt="Goblin",l.classList.add("goblin");let d=-1;function a(){let e=d;for(;e===d;)e=Math.floor(Math.random()*n.length);d=e,n[d].appendChild(l)}a(),setInterval(a,1e3)})();
+//# sourceMappingURL=index.858aa3c9c648b7850a9e.js.map

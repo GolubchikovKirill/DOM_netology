@@ -1,4 +1,3 @@
-import './table.css';
 
 const movies = [
   { id: 26, title: 'Побег из Шоушенка', imdb: 9.30, year: 1994 },
